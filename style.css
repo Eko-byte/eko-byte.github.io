@@ -45,7 +45,7 @@
  }
 .head:hover a {
       text-decoration: none;
-      color: #7928CA;
+      color: #E14052;
   }
  .dropdown-content {
     display: none;
@@ -68,6 +68,6 @@
     color: white;
  }
 .dropdown-content a:hover {
-color: #7928CA;
+color: #E14052;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
