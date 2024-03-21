@@ -76,7 +76,9 @@ color: #E14052;
   gap: 25px;
 }
 .container {
-  display: relative;
+  display: grid;
+  gap: 40px;
+  grid: 180px / auto auto auto;
 
 }
 #rcorners2 {
