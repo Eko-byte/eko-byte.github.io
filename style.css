@@ -35,7 +35,7 @@
       text-decoration: none;
       color: white;
   }
-  .head a {
+  .hc a {
       text-decoration: none;
       color: white;
   }
@@ -43,7 +43,7 @@
   position: relative;
   display: inline-block;
  }
-.head:hover a {
+.hc:hover a {
       text-decoration: none;
       color: #E14052;
   }
