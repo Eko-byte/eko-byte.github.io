@@ -73,7 +73,7 @@ color: #E14052;
 }
 .row {
   display: flex;
-  gap: 15px;
+  gap: 25px;
 }
 .container {
   display: relative;
