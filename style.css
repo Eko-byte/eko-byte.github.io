@@ -119,13 +119,15 @@ color: #E14052;
 }
 
 body {
-  background-image: url('background.png');
-  background-size: 100% auto;
-  background-position: top;
-  background-attachment: fixed;
   color: #665044;
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
   color: #665044;
+}
+
+.content {
+  background-image: url('background.png');
+  background-size: 100% auto;
+  background-position: top;
 }
