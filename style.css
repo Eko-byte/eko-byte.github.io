@@ -119,7 +119,7 @@ color: #E14052;
 }
 
 body {
-  background-position-y: 200px;
+  background-position-y: 500px;
   background-image: url('background.png');
   background-size: 100% auto;
   background-position: top;
