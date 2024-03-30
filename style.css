@@ -16,12 +16,13 @@
 }
   /* Custom CSS for navigation bar */
   header {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-image: url('banner.png');
-    background-size: 100% auto;
+    background-size: 100% bottom;
     background-repeat: repeat-x;
     background-position: left top;
     color: white;
@@ -122,6 +123,7 @@ body {
   background-image: url('background.png');
   background-size: 100% auto;
   background-position: top;
+  background-attachment: fixed;
   color: #665044;
 }
 
