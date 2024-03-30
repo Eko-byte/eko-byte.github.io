@@ -104,3 +104,11 @@ color: #E14052;
  width: 200px;
  height: 25px;
 }
+
+#image {
+  transition: transform 0.3s ease-in-out;
+}
+
+#image:hover {
+  transform: scale(1.1);
+}
