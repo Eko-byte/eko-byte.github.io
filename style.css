@@ -106,9 +106,9 @@ color: #E14052;
 }
 
 #image {
-  transition: transform 0.3s ease-in-out;
+  background-size: cover;
 }
 
 #image:hover {
-  transform: scale(1.1);
+  background-image: url('selection.png');
 }
