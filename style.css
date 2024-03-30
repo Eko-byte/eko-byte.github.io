@@ -122,5 +122,18 @@ body {
   background-image: url('background.png');
   background-size: cover;
   background-position: top;
+  position: relative;
+}
 
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(#816658, #665044);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  pointer-events: none;
 }
