@@ -106,9 +106,9 @@ color: #E14052;
 }
 
 #image {
-  background-size: 200px;
+  border-image-width: 200px;
 }
 
 #image:hover {
-  background-image: url('selection.png');
+  border-image: url('selection.png');
 }
