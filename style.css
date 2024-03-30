@@ -120,7 +120,7 @@ color: #E14052;
 
 body {
   background-image: url('background.png');
-  background-size: cover;
+  background-size: 100% auto;
   background-position: top;
   color: #665044;
 }
