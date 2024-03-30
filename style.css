@@ -120,10 +120,7 @@ color: #E14052;
 
 body {
   background-image: url('background.png');
-  -webkit-linear-gradient(#816658, #665044);
   background-size: cover;
   background-position: top;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+
 }
