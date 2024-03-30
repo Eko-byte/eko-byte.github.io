@@ -22,7 +22,7 @@
     padding: 10px 20px;
     background-image: url('banner.png');
     background-size: cover; /* or use 100% 100% if you want to stretch the image */
-    background-repeat: repeat-y;
+    background-repeat: repeat-x;
     background-position: center;
     color: white;
   }
