@@ -16,7 +16,7 @@
 }
   /* Custom CSS for navigation bar */
   header {
-    height: 50px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -120,7 +120,7 @@ color: #E14052;
 }
 
 body {
-  padding-top: 50px; /* same as header height */
+  padding-top: 200px; /* same as header height */
   background-image: url('background.png');
   background-size: 100% auto;
   background-position: top;
