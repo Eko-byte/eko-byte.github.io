@@ -106,7 +106,7 @@ color: #E14052;
 }
 
 #image {
-  border-image-width: 200px;
+  width: 200px;
 }
 
 #image:hover {
