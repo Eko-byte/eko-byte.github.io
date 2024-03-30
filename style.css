@@ -21,7 +21,7 @@
     align-items: center;
     padding: 10px 20px;
     background-image: url('banner.png');
-    background-size: 100% bottom;
+    background-size: 100% top;
     background-repeat: repeat-x;
     background-position: left top;
     color: white;
