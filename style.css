@@ -114,3 +114,8 @@ color: #E14052;
 #image:hover {
   background-image: url('selection.png');
 }
+
+body {
+  background-image: url('background.png');
+  background-size: cover;
+}
