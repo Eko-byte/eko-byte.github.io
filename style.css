@@ -106,9 +106,7 @@ color: #E14052;
 }
 
 #image {
-  background-size: cover;
-  width: 200px;
-  height: 133px;
+  background-size: 200px;
 }
 
 #image:hover {
