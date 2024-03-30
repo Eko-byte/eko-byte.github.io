@@ -77,8 +77,8 @@ color: #E14052;
 }
 .row {
   display: grid;
-  gap: 40px;
-  grid: 180px / auto auto auto;
+  gap: 50px;
+  grid: 150px / auto auto auto;
 }
 .container {
   display: relative;
