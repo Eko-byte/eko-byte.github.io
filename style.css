@@ -109,13 +109,13 @@ color: #E14052;
 }
 
 #image {
-  width: 201px;
-  height: 134px;
-  background-size: cover;
+  width: 172px;
+  height: 105px;
+  border: 15px solid rgba(0, 128, 0, 0);
 }
 
 #image:hover {
-  background-image: url('selection.png');
+  border: 15px solid #F6E9B7;
   box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.4);
 }
 
