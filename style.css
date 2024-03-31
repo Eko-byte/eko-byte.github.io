@@ -122,7 +122,7 @@ color: #E14052;
 body {
   background-image: url('background.png');
   background-size: 100% auto;
-  background-position: top;
+  background-position: center 500px; /* This will start the background image 500px down from the top */
   color: #665044;
 }
 
