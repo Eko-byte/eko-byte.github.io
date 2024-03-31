@@ -22,7 +22,7 @@
     padding: 10px 20px;
     background-image: url('banner.png');
     background-size: contain; /* This will ensure the entire image is always visible */
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: center;
     color: white;
   }
