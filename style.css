@@ -8,75 +8,75 @@
   --nc-bg-1: #665044;
   --nc-bg-2: #665044;
   --nc-bg-3: #665044;
-  --nc-lk-1: #E14052;
-  --nc-lk-2: #E14052;
-  --nc-lk-tx: #FFFFFF;
-  --nc-ac-1: #E14052;
-  --nc-ac-tx: #FFFFFF;
+  --nc-lk-1: #e14052;
+  --nc-lk-2: #e14052;
+  --nc-lk-tx: #ffffff;
+  --nc-ac-1: #e14052;
+  --nc-ac-tx: #ffffff;
 }
-  /* Custom CSS for navigation bar */
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-image: url('banner.png');
-    background-size: contain; /* This will ensure the entire image is always visible */
-    background-repeat: repeat-x;
-    background-position: center;
-    color: white;
-  }
+/* Custom CSS for navigation bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-image: url("banner.png");
+  background-size: contain; /* This will ensure the entire image is always visible */
+  background-repeat: repeat-x;
+  background-position: center;
+  color: white;
+}
 
-  nav ul {
-      list-style-type: flex;
-      padding: 0;
-      margin: 0;
-  }
+nav ul {
+  list-style-type: flex;
+  padding: 0;
+  margin: 0;
+}
 
-  nav ul li {
-      display: inline;
-      margin-right: 20px;
-  }
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
 
-  nav ul li a {
-      text-decoration: none;
-      color: white;
-  }
-  .hc a {
-      text-decoration: none;
-      color: white;
-  }
-  .dropdown {
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.hc a {
+  text-decoration: none;
+  color: white;
+}
+.dropdown {
   position: relative;
   display: inline-block;
- }
+}
 .hc:hover a {
-      text-decoration: none;
-      color: #E14052;
-  }
- .dropdown-content {
-   display: none;
-   position: absolute;
-   background-color: #333;
-   min-width: 100px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 1;
-  }
+  text-decoration: none;
+  color: #e14052;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
-  .dropdown-content a {
-   color: white;
-   padding: 12px 16px;
-   text-decoration: none;
-   display: block;
- }
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
- .dropdown:hover .dropdown-content{
-    display: block;
-    color: white;
- }
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: white;
+}
 .dropdown-content a:hover {
-color: #E14052;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  color: #e14052;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 .row {
   display: grid;
@@ -92,20 +92,20 @@ color: #E14052;
   border-top-left-radius: 20px;
   border: 2px solid #222222;
   border-bottom: 1px solid #222222;
-  padding: 10px; 
+  padding: 10px;
   width: 200px;
   height: 110px;
 }
 #rcorners1 {
- position: relative;
- border-bottom-right-radius: 20px;
- border-bottom-left-radius: 20px;
- border: 2px solid #222222;
- border-top: 1px solid #222222;
- padding: 10px;
- border: 2px solid #222222;
- width: 200px;
- height: 25px;
+  position: relative;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 2px solid #222222;
+  border-top: 1px solid #222222;
+  padding: 10px;
+  border: 2px solid #222222;
+  width: 200px;
+  height: 25px;
 }
 
 #image {
@@ -115,17 +115,22 @@ color: #E14052;
 }
 
 #image:hover {
-  border: 15px solid #F6E9B7;
-  box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.4);
+  border: 15px solid #f6e9b7;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.4);
 }
 
 body {
-  background-image: url('background.png');
+  background-image: url("background.png");
   background-size: 100% auto;
   background-position: center 165px; /* This will start the background image 500px down from the top */
   color: #665044;
 }
 
-body h1, body h2, body h3, body h4, body h5, body h6 {
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
   color: #665044;
 }
