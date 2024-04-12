@@ -16,7 +16,7 @@
 }
 /* Custom CSS for navigation bar */
 header {
-  text-indent: 20px;
+  text-align: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
