@@ -16,7 +16,6 @@
 }
 /* Custom CSS for navigation bar */
 header {
-  text-align: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,6 +25,10 @@ header {
   background-repeat: repeat-x;
   background-position: center;
   color: white;
+}
+
+header img {
+  margin-right: 10px; 
 }
 
 nav ul {
