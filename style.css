@@ -78,7 +78,7 @@ nav ul li a {
   color: #e14052;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
-.row {
+.nsh_grid {
   display: grid;
   gap: 70px;
   grid: 130px / auto auto auto;
@@ -108,13 +108,13 @@ nav ul li a {
   height: 25px;
 }
 
-#image {
+#nsh_image {
   width: 172px;
   height: 105px;
   border: 15px solid rgba(0, 128, 0, 0);
 }
 
-#image:hover {
+#nsh_image:hover {
   border: 15px solid #f6e9b7;
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.4);
 }
@@ -126,11 +126,6 @@ body {
   color: #665044;
 }
 
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6 {
+body h1, body h2, body h3, body h4, body h5, body h6 {
   color: #665044;
 }
