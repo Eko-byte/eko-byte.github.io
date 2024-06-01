@@ -54,10 +54,6 @@ nav ul li a {
   position: relative;
   display: inline-block;
 }
-.hc:hover a {
-  text-decoration: none;
-  color: #e14052;
-}
 .dropdown-content {
   display: none;
   position: absolute;
